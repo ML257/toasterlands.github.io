@@ -9,9 +9,14 @@ header{
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    font-family: 'Minecraft', sans-serif;
+                                                
 }
 
 .titulobarra{
+    
     margin-top: 0;
     color: aliceblue;
     padding-top: 10px;
@@ -26,42 +31,85 @@ header{
     margin-right: 20px;
 }
 
+.enlacestope :link{
+    
+  text-decoration: none;
+  color: aliceblue;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255)
+}
+
+.enlacestope :visited{
+    
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255)
+  }
+  
+  .enlacestope :hover{
+    
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    border-color: gold;
+    
+  } 
+
+
 .enlacet {
 
     background-color: rgb(5, 255, 30);
-    border-style: inset;
+    border-style: outset;
     border-width: 3px;
     border-color: aliceblue;
     font-size: 25px;
+    padding-bottom: 5px;
 }
 
-.enlacet :link {
-
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.enlacet :visited { 
-
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.enlacet :hover { 
-
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.enlacet :active{ 
-
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 
 
 footer{
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: space-between;
+}
+
+/*Relleno*/
+
+.cajarelleno{
+
+    height: 69px;
+    background-color: rgb(0, 0, 0);
+}
+
+.weclome {
+
+        
+    height: 600px;
+    background-color: red;
+    background-image: url(src/img/fondo.png);
+    background-position-x: 50%;
+    background-position-y: 40%;
+    text-align: center;
+}
+
+.titbiv{
+    margin-top: 0;
+    font-family: 'Minecraft', sans-serif;
+    padding-top: 250px;
+    color: aliceblue;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(186, 186, 186);
+
+}
+
+.subtitbiv{
+    color: rgb(232, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
 }
