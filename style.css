@@ -143,7 +143,7 @@ header{
     border-width: 15px;
     border-style: outset;
     color: aliceblue;
-    margin-bottom: 40px;
+   margin-bottom: 40px;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
     
 }
@@ -164,12 +164,120 @@ header{
     font-weight: bold;
 }
 
+.finalofpage {
+    background-color: rgb(29, 29, 29);
+    margin-bottom: 0;
+    height: 250px;
+}
 
-/**/
+.titfinal{
+
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Minecraft';
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.subtitfinal{
+
+    color: aliceblue;
+    text-align: center;
+}
+
+.textocop{
+
+    background-color: rgb(5, 255, 30);
+    border-style: outset;
+    border-width: 3px;
+    border-color: aliceblue;
+    font-size: 35px;
+    padding-bottom: 5px;
+    color: aliceblue;
+}
+
+.botoncopia{
+    background-color: rgb(5, 255, 30);
+    border-style: outset;
+    border-width: 3px;
+    border-color: aliceblue;
+    font-size: 35px;
+    padding-bottom: 5px;
+    color: aliceblue;
+}
+
+.imgbot {
+    height: 30px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+/* Final de pagina*/
 
 footer{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
+    
+    background-color: black;
+
+
+}
+
+.contfut {
+    margin-top: -21px;
+    background-color: rgb(23, 23, 23);
+
+    
+}
+
+.titfut{   
+
+    padding-top: 10px;
+    margin-left: 10px;
     color: aliceblue;
+    font-family: 'Minecraft';
+}
+
+.filas{
+
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.fila {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fila :link {
+
+    text-decoration: none;
+    color: rgb(74, 179, 0);
+}
+
+.fila :visited {
+
+    text-decoration: none;
+    color: rgb(74, 179, 0);
+}
+
+.fila :hover{
+
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.copy {
+
+    background-color: rgb(10, 10, 10) ;
+    color: rgb(148, 148, 148);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 80%;
+    
+    
 }
