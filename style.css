@@ -8,7 +8,7 @@ body{
 /* Barra tope*/
 
 header{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(30, 30, 30, 0.7);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -37,7 +37,7 @@ header{
     
   text-decoration: none;
   color: aliceblue;
-  -webkit-text-stroke-width: 1px;
+
 
 }
 
@@ -45,7 +45,7 @@ header{
     
     text-decoration: none;
     color: aliceblue;
-    -webkit-text-stroke-width: 1px;
+
 
   }
   
@@ -53,9 +53,8 @@ header{
     
     text-decoration: none;
     color: aliceblue;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    border-color: gold;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
     
   } 
 
@@ -63,10 +62,10 @@ header{
 .enlacet {
 
     background-color: rgb(5, 255, 30);
-    border-style: outset;
     border-width: 3px;
-    border-color: aliceblue;
-    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 25px;    
     padding-bottom: 5px;
 }
 
@@ -100,19 +99,17 @@ header{
     font-family: 'Minecraft', sans-serif;
     padding-top: 250px;
     color: aliceblue;
-    font-size: 60px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(186, 186, 186);
-    text-shadow: 1px 1px 2px rgb(181, 181, 181), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 255, 255);
+    font-size: 70px;
+ 
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
 
 }
 
 .subtitbiv{
-    color: rgb(232, 0, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Minecraft', sans-serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
  
 }
 
@@ -194,6 +191,7 @@ header{
     font-size: 35px;
     padding-bottom: 5px;
     color: aliceblue;
+    font-family: 'Minecraft';
 }
 
 .botoncopia{
@@ -204,15 +202,25 @@ header{
     font-size: 35px;
     padding-bottom: 5px;
     color: aliceblue;
+    font-family: 'Minecraft';
+    font-weight: bold;
 }
 
-.imgbot {
-    height: 30px;
-    padding-top: 5px;
+.botoncopia :link{
+    color: aliceblue;
+
 }
 
+.botoncopia :visited{
+    color: aliceblue;
+
+}
+
+.botoncopia :hover{
+    color: rgb(251, 255, 0);
 
 
+}
 
 
 
