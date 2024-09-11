@@ -1,5 +1,5 @@
 function copiario(){
 
-    navigator.clipboard.writeText("192.168.1.9:25565")
-    window.alert("Se ha copiado la ip")
+    navigator.clipboard.writeText("https://discord.gg/aj4ct5qN9p")
+    window.alert("SE HA COPIADO EL ENLACE DE INVITACION")
 }
