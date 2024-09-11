@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "SUSE", sans-serif;
     background-color: rgb(50, 50, 50);
     
 }
@@ -61,7 +61,7 @@ header{
 
 .enlacet {
 
-    background-color: rgb(5, 255, 30);
+    background-color: rgb(46, 223, 64);
     border-width: 3px;
     padding-left: 3px;
     padding-right: 3px;
@@ -78,7 +78,7 @@ header{
 .cajarelleno{
 
     height: 69px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(30, 30, 30);
 }
 
 /* Imagen Bienvenida*/
@@ -126,14 +126,14 @@ header{
     font-family: 'Minecraft';
     text-align: center;
     text-shadow: 10px;
-    text-shadow: 1px 1px 2px rgb(181, 181, 181), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
 }
 
 .Descbox{
 
     display: flex;
     justify-content: center;    
-    background-color: rgb(131, 139, 114);
+    background-color: rgb(95, 100, 84);
     margin-left: 50px;
     margin-right: 50px;
     border-color: aliceblue;
@@ -174,6 +174,7 @@ header{
     font-family: 'Minecraft';
     font-size: 50px;
     padding-top: 40px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
 }
 
 .subtitfinal{
@@ -184,7 +185,7 @@ header{
 
 .textocop{
 
-    background-color: rgb(5, 255, 30);
+    background-color: rgb(46, 223, 64);
     border-style: outset;
     border-width: 3px;
     border-color: aliceblue;
@@ -192,10 +193,13 @@ header{
     padding-bottom: 5px;
     color: aliceblue;
     font-family: 'Minecraft';
+    padding-left: 3px;
+    padding-right: 3px;
+    
 }
 
 .botoncopia{
-    background-color: rgb(5, 255, 30);
+    background-color: rgb(46, 223, 64);
     border-style: outset;
     border-width: 3px;
     border-color: aliceblue;
@@ -204,6 +208,8 @@ header{
     color: aliceblue;
     font-family: 'Minecraft';
     font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .botoncopia :link{
