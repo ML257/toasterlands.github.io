@@ -1,0 +1,62 @@
+.servidores {
+
+    margin-left: 50px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+
+.cajaserver{
+    background-color: rgb(86, 86, 86);
+    height: 440px;
+    width: 300px;
+    border-color: aliceblue;
+    border-style: outset;
+    border-width: 6px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    
+}
+
+.imagserv{
+
+    height: 120px;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 50px;
+    border-color: aliceblue;
+    border-style: outset;
+    border-width: 6px;
+}
+
+.titserv{
+
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Minecraft';
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+.textserv{
+    
+    color: aliceblue;
+   padding: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.textserv :link {
+    text-decoration: none;
+    color: gold;
+}
+
+.textserv :visited {
+    text-decoration: none;
+    color: gold;
+}
+
+.textserv :hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 115);
+}
