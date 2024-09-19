@@ -1,3 +1,20 @@
+.titanuncio {
+    margin-top: 200px;
+    font-size: 70px;
+    color: aliceblue;
+    font-family: 'Minecraft';
+    text-align: center;
+    text-shadow: 10px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+
+.limitado {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .cuerpoan{
 
     background-image: url(src/img/dirtbac.webp);
@@ -6,4 +23,42 @@
 .noticias{ 
 
     margin-top: -40px;
+    
+}
+
+
+.novedad {
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.imgnots {
+   
+    width: 800px;
+    border-color: aliceblue;
+    border-style: outset;
+    border-width: 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+   
+
+}
+
+.titnot {
+
+    color: white;
+    font-family: 'Minecraft';
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.textonot {
+
+    color: white;
+    font-weight: 500;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+
 }
